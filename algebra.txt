@@ -1,0 +1,15 @@
+A=[12 -2 3;1 10 -2;3 1 15];
+[n,~]=size(A);
+b=ones(1,n)';
+inv(A)*b
+norm(A)
+
+
+C=rand(3,3);
+inv(C)*b
+norm(C)
+
+
+D=rand(3,3);
+inv(D)*b
+norm(D)
